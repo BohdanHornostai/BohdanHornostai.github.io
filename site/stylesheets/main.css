@@ -186,6 +186,7 @@ body {
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
+    font-family: 'Roboto';
     position: relative;
     display: block;
     width: 100%;
@@ -289,11 +290,7 @@ section {
 
 /* The company logo */
 
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
-	margin: 0;
-}
+
 
 
 
@@ -420,15 +417,6 @@ section {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
-
-
-/*////////////*/
-
-
-
 
 
 
