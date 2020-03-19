@@ -62,7 +62,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin: 0 15px;
-    padding: 10px 30px;
+    padding: 1px 30px;
     font-family: 'Roboto';
     color: #2e2d2d; 
     transition: .3s linear;
@@ -523,7 +523,7 @@ section {
   
   .footer-distributed{
     text-align: left;
-    width: 102%;
+    width: 105%;
     padding: 1px 10px;
   }
   
@@ -532,7 +532,7 @@ section {
     padding: 10px 130px;
     background-color: rgb(230, 55, 28);
     margin-left: 16px;
-    margin-right: auto;
+    margin-right: 16px;
   }
   
   
