@@ -224,7 +224,7 @@ section {
 .footer-distributed{
   background-image: linear-gradient(rgba(153, 32, 14,0) , rgba(230, 55, 28,1) 8%,  rgba(153, 32, 14,1) );
   text-align: left;
-  width: 102%;
+  width: 100%;
 	padding: 40px 50px;
 }
 
