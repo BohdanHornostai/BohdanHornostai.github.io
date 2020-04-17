@@ -1,25 +1,39 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 
-*{
-    box-sizing: border-box;
-}
+
 body {
     margin-left: 0px;
     background-repeat: no-repeat;
     background-color: #ffffff;
-
     font-family: 'Roboto';
 
 }
+
+.Yak li{
+  display:inline-block;
+  width: 20%;
+  margin-left: 50px;
+  margin-bottom: 60px;
+
+}
+
+
+.LogWrap li{
+display:inline-block;
+width: 100%;
+margin-bottom: 10px;
+margin-right: 50px;
+
+}
+
  .fixed-menu{
     position: fixed;
     width: 100%;
     margin-top: 0%;
     padding-top: 0%;
     top:0px;
-    z-index: 5;
-    
+    z-index: 5;  
   } 
 
 
@@ -27,17 +41,15 @@ body {
     list-style: none;
     padding: 0 30px;
     margin: 0;
-    margin-bottom: 50px;
     bottom: 0px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
     font-size: 18px;
     text-align: center;
     position: relative;
     background-image: linear-gradient( rgb(153, 32, 14), rgb(230, 55, 28) );
     border-bottom: #2e2d2d; 
-    z-index: 5;
-    
-    
+    z-index: 5;    
 }
 
 .menu-main:after {
@@ -155,22 +167,7 @@ body {
 
 
 
-  .Yak li{
-    display:inline-block;
-    width: 20%;
-    margin-left: 50px;
-    margin-bottom: 60px;
 
-}
-
-
-.LogWrap li{
-  display:inline-block;
-  width: 100%;
-  margin-bottom: 10px;
-  margin-right: 50px;
-
-}
 
 
 .flip-card {
@@ -267,8 +264,7 @@ section {
 }
 
 .footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer-distributed .footer-center{
 	display: inline-block;
 	vertical-align: top;
 }
@@ -355,9 +351,7 @@ section {
 }
 
 
-.footer-distributed .footer-right{
-	width: 20%;
-}
+
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
@@ -556,5 +550,5 @@ section {
         margin-bottom: 300px;
     }
 
-    
+  
 }
